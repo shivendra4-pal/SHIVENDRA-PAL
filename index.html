@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shivendra Pal</h1>
+        <p>Web Developer | IT Student</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="row">
+            <div class="column image-col">
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQFaMVXfhI9cjA/profile-displayphoto-scale_400_400/B4EZjDdr.kHIAg-/0/1755625998063?e=1779321600&v=beta&t=jMb2UN4_4MPds2scffGntKB-4IocbUIMmIqmXCnMVw0" alt="Meri Photo" class="profile-pic">
+            </div>
+            
+            <div class="column text-col">
+                <h2>About Me</h2>
+                <p>Hello! I am an IT student who enjoys building simple and visually appealing websites. This is a college project where I used HTML and CSS.</p>
+                <p>I am currently learning new web design techniques and improving my coding skills..</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2> Projects</h2>
+        <div class="card-container">
+            
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&auto=format&fit=crop&q=60" alt="Project 1" class="card-img">
+                <h3>HTML Portfolio</h3>
+                <p>A clean and attractive personal website that I independently designed and developed.</p>
+                <a href="#" class="btn-link">Project </a> </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&auto=format&fit=crop&q=60" alt="Project 2" class="card-img">
+                <h3>CSS Form</h3>
+                <p>A well-designed contact form featuring a dropdown menu for user selection.</p>
+                <a href="#" class="btn-link">Project </a> </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label>Your Name </label>
+            <input type="text" placeholder="Enter Your Name " required>
+
+            <label>Why are you trying to contact me?</label>
+            <select name="reason">
+                <option value="project">College Project </option>
+                <option value="job">Job / Internship </option>
+                <option value="other">Friendship</option>
+            </select>
+
+            <label>Message:</label>
+            <textarea rows="4" placeholder="Kuch likhein..."></textarea>
+
+            <button type="button" class="btn-submit">Submit Form</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Shivendra. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
